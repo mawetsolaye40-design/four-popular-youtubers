@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    background: rgb(210, 165, 1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Navigation Section*/
+nav{
+    padding: 15px;
+    text-align: center;
+}
+nav a{
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav a:hover{
+color: rgb(165, 121, 0);
+}
+
+/*Card Section*/
+.card img{
+    width: 500px;
+    border-radius: 100px;
+}
+.card{
+    width: 500px;
+    background: white;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;
+}
+
+/*Container Section*/
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+}
+.btn{
+    background: rgb(210, 165, 1);
+    color: rgb(113, 83, 0);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.btn:hover{
+    background: rgb(255, 200, 0);
+}
+.border{
+    background: rgb(113, 83, 0);
+}
+h2{
+    background: white;
+    color: rgb(210, 165, 1);
+}
+p{
+   background: white; 
+   color: rgb(210, 165, 1);
+}
+.btn a{
+    text-decoration: none;
+}
+.stlye{
+    text-decoration: double;
+}
